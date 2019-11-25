@@ -1,0 +1,7 @@
+*.torrent
+*.resume
+*.mkv
+common/data/movies/
+common/data/watch/
+transmission/
+plex/
