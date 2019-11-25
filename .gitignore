@@ -1,0 +1,10 @@
+/common/data/configs/plex/
+/common/data/movies/
+/common/data/watch/
+/transmission/
+/plex/
+*.torrent
+*.resume
+*.mkv
+
+
