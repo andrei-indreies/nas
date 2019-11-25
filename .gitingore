@@ -2,6 +2,7 @@
 *.resume
 *.mkv
 common/data/movies/
+common/data/configs/plex/
 common/data/watch/
 transmission/
 plex/

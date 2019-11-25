@@ -1,0 +1,199 @@
+<?xml version='1.0' encoding='utf-8'?>
+<Movie>
+  <art>
+    <item external="True" url="http://image.tmdb.org/t/p/original/dBt0DoFfbhOI4ypUfRj1uTq623M.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_53c6981dd14fad709ea5710fd2dd36419f52e76e"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/iaJakHS2qPkbRY4KHB7E3NmVb7w.jpg" preview="com.plexapp.agents.imdb_eb4e317b76e0b503bfdc8c4a89018cdb9ad7c524" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/dGuLeKnJ8KcZ68sIB4zHlShq1We.jpg" preview="com.plexapp.agents.imdb_bba72510f11c68de6b1776b5c1f092fb93385f0c" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/jB98SrdXAYSbiprjIwc7WfVCuCV.jpg" preview="com.plexapp.agents.imdb_633f2322ea848da29a7b09238a92600134ed84be" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/mJAELkvaKd3mK1Q97aZ3jOGVetj.jpg" preview="com.plexapp.agents.imdb_76d64828cf35a2220e7ea971bbc34d208e977263" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/jI2pxpDT3XBqcFvReAWp1gOf19i.jpg" preview="com.plexapp.agents.imdb_9e4753f46ae3ee95f0fe0aae00ee1678609ac4ab" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/2pa6UTWCuRoAEzC06vAAxI7bBrT.jpg" preview="com.plexapp.agents.imdb_35f74090e96440a4c2a59f2615b502719ff8563b" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/AhhOKG6insXApyoriOaNAJ5PoAk.jpg" preview="com.plexapp.agents.imdb_2419912ba2256fa576ed94aa6171a91ac113543c" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/4DHHymlttV0YskaxoWtuIDNDhPl.jpg" preview="com.plexapp.agents.imdb_ee7ebbabd64ef61325b11995047da904d66ec088" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/yoB84nmIDTzfpUhF70okwXJ8EpE.jpg" preview="com.plexapp.agents.imdb_7cf495304676e2c26d449a658c6b660244fd0445" sort_order="10" provider="com.plexapp.agents.imdb"/>
+  </art>
+  <banners/>
+  <chapters/>
+  <collections/>
+  <content_rating>R</content_rating>
+  <countries>
+    <item index="0">USA</item>
+  </countries>
+  <directors>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/utWxbobxeJBRAaohiNIsIQBvuxe.jpg</photo>
+      <role/>
+      <name>Gary Dauberman</name>
+    </item>
+  </directors>
+  <duration>6360000</duration>
+  <genres>
+    <item index="0">Horror</item>
+    <item index="1">Mystery</item>
+    <item index="2">Thriller</item>
+  </genres>
+  <originally_available_at>2019-06-26</originally_available_at>
+  <posters>
+    <item external="True" url="http://image.tmdb.org/t/p/original/7VrHVOaEiggu3pRWT4X5812twQF.jpg" sort_order="1" provider="com.plexapp.agents.imdb" media="com.plexapp.agents.imdb_ee3e22264adadd077f8ff3ddf112fd34faeaac74"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/pJDt7mBK3KZSVuN03ACpLhOd74j.jpg" preview="com.plexapp.agents.imdb_dba1394d05aad23a9a7ac5eb6db29f601174015b" sort_order="2" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg" preview="com.plexapp.agents.imdb_aa40756a3ae37c3194e95a891410b6c5ca4760f0" sort_order="3" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/qFjtLOeVl4jpzPUhp4cl4ieANHY.jpg" preview="com.plexapp.agents.imdb_e92018442213a1bdbc6fdf41abc143c3f766a681" sort_order="4" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/3Ndk7Wjw8H4pOL2TxxdnRmY3At9.jpg" preview="com.plexapp.agents.imdb_e3edb808a8d199d95af10ef25eca8e6ba60302b2" sort_order="5" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/wtrHmaRCHj4FOzpQ0TqdWSUsJ19.jpg" preview="com.plexapp.agents.imdb_640cb75c4d17e491a05b44b5dd109bc1a4c80d0c" sort_order="6" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/6NvcsKQmWvZz8fDvuboZkccowZA.jpg" preview="com.plexapp.agents.imdb_b290c849ae77b29b8b3d7b4eb94ece6065d1d56c" sort_order="7" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/jsbt03UnPPt14AYRMcGaoqtwNxQ.jpg" preview="com.plexapp.agents.imdb_4609629ce0a02b85537e4d217998b58c76369b1f" sort_order="8" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/tpJwRPPnfAaUt3iYu4HVlOp1LUl.jpg" preview="com.plexapp.agents.imdb_4a6806cefef9421e289182498b449cda22cc4898" sort_order="9" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/c6jiJaHHIiJOAJ9ct2Ogy90KVyx.jpg" preview="com.plexapp.agents.imdb_7bb98d2cc3bead0e89aeee4281d062aeb5848a8b" sort_order="10" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/D1L2D7oeZwFugxmM94vFB4V88H.jpg" preview="com.plexapp.agents.imdb_16020cb56335049925e4bdf95ab661704cb02189" sort_order="11" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/4A7RT9qVF76kQ09mhPsqJdRNeHM.jpg" preview="com.plexapp.agents.imdb_0e5e47f81fc98e2423d6735b652e7bc7e2c5467d" sort_order="12" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/kb9zzPORh4lZ1gBvcV0MxsU3FSc.jpg" preview="com.plexapp.agents.imdb_f735b61287533e015e1a561f11957cb6d600e47c" sort_order="13" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/gNJiobPrfboTU5WkgOui9ULAnrC.jpg" preview="com.plexapp.agents.imdb_1feae1d062847fd66d82030345ef9fbcf93fca70" sort_order="14" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/8MKIOGSEkuyWUHpTSnxOqcXzrYQ.jpg" preview="com.plexapp.agents.imdb_9f3f84d21d947b2a68f622d45cafafe7af90ae39" sort_order="15" provider="com.plexapp.agents.imdb"/>
+    <item external="True" url="http://image.tmdb.org/t/p/original/aD25FFtyGsyHgoc1Ff70o518WvE.jpg" preview="com.plexapp.agents.imdb_febf062cddee81fc1774612616dac7c54ad936db" sort_order="16" provider="com.plexapp.agents.imdb"/>
+  </posters>
+  <producers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/9AlAMoHVDUX8GVOTw6JOyKil8k9.jpg</photo>
+      <role/>
+      <name>James Wan</name>
+    </item>
+    <item index="1">
+      <photo>http://image.tmdb.org/t/p/original/fi7kdDDUdNrn5K6vmLkLrLarQQs.jpg</photo>
+      <role/>
+      <name>Peter Safran</name>
+    </item>
+  </producers>
+  <rating>0.0</rating>
+  <rating_image>imdb://image.rating</rating_image>
+  <audience_rating>0.0</audience_rating>
+  <audience_rating_image/>
+  <reviews/>
+  <roles>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/f1Y0mtC4bxHF6ALdKXrZCsF5w9S.jpg</photo>
+      <role>Judy Warren</role>
+      <name>Mckenna Grace</name>
+    </item>
+    <item index="1">
+      <photo>http://image.tmdb.org/t/p/original/qkPW0nHQUlckRj3MRveVTzRpNR2.jpg</photo>
+      <role>Mary Ellen</role>
+      <name>Madison Iseman</name>
+    </item>
+    <item index="2">
+      <photo>http://image.tmdb.org/t/p/original/oQLQZ58uvGgpdtCUpOcoiF5zYJW.jpg</photo>
+      <role>Daniela Rios</role>
+      <name>Katie Sarife</name>
+    </item>
+    <item index="3">
+      <photo>http://image.tmdb.org/t/p/original/djhTpbOvrfdDsWZFFintj2Uv47a.jpg</photo>
+      <role>Ed Warren</role>
+      <name>Patrick Wilson</name>
+    </item>
+    <item index="4">
+      <photo>http://image.tmdb.org/t/p/original/oWZfxv4cK0h8Jcyz1MvvT2osoAP.jpg</photo>
+      <role>Lorraine Warren</role>
+      <name>Vera Farmiga</name>
+    </item>
+    <item index="5">
+      <photo>http://image.tmdb.org/t/p/original/be77e6Gqfeh60WCLZPjhGJcpBKq.jpg</photo>
+      <role>Bob Palmeri</role>
+      <name>Michael Cimino</name>
+    </item>
+    <item index="6">
+      <photo>http://image.tmdb.org/t/p/original/v1cwS9Ia89pO154Wje3m4IxuI3.jpg</photo>
+      <role>Father Gordon</role>
+      <name>Steve Coulter</name>
+    </item>
+    <item index="7">
+      <photo>http://image.tmdb.org/t/p/original/67l7wx45zOiMTGs0YQwliWNi5nY.jpg</photo>
+      <role>Bee</role>
+      <name>Samara Lee</name>
+    </item>
+    <item index="8">
+      <photo>http://image.tmdb.org/t/p/original/3luVtifpeQvF54jEf6NbK2Oz0dE.jpg</photo>
+      <role>The Bride</role>
+      <name>Natalia Safran</name>
+    </item>
+    <item index="9">
+      <photo>http://image.tmdb.org/t/p/original/vc9Y7bM9PnXvt5D5BuozJvP5Gzd.jpg</photo>
+      <role>Rory</role>
+      <name>Emily Brobst</name>
+    </item>
+    <item index="10">
+      <photo>http://image.tmdb.org/t/p/original/wzEilQWiKBsIJvn6vb3JzUvKU14.jpg</photo>
+      <role>Truck Driver</role>
+      <name>Eddie J. Fernandez</name>
+    </item>
+    <item index="11">
+      <photo>http://image.tmdb.org/t/p/original/6q9ruvChEDXWiGzpeugSnWN5P0o.jpg</photo>
+      <role>Flashback Bride</role>
+      <name>Joanna Bartling</name>
+    </item>
+    <item index="12">
+      <photo>http://image.tmdb.org/t/p/original/teEjrYlSWzqJmWKvsdKCzUyQom6.jpg</photo>
+      <role>Debbie</role>
+      <name>Kenzie Caplan</name>
+    </item>
+    <item index="13">
+      <photo>http://image.tmdb.org/t/p/original/pk06Kl9VMz5lRJe5FYyriEGkQVG.jpg</photo>
+      <role>Coin Corpse</role>
+      <name>Sara Raftery</name>
+    </item>
+    <item index="14">
+      <photo/>
+      <role>Mr. Palmeri</role>
+      <name>Paul Dean</name>
+    </item>
+    <item index="15">
+      <photo/>
+      <role>Nurse 2</role>
+      <name>Sade Katarina</name>
+    </item>
+    <item index="16">
+      <photo/>
+      <role>Truck Driver</role>
+      <name>Rxchie</name>
+    </item>
+    <item index="17">
+      <photo>http://image.tmdb.org/t/p/original/2OOVcU0Oxkt6vD5jOAX5Sv0YKg7.jpg</photo>
+      <role>Anthony Rios</role>
+      <name>Luca Luhan</name>
+    </item>
+  </roles>
+  <similar>
+    <item index="0">The Curse of La Llorona</item>
+    <item index="1">Child's Play</item>
+    <item index="2">Pet Sematary</item>
+    <item index="3">The Nun</item>
+    <item index="4">Crawl</item>
+    <item index="5">Scary Stories to Tell in the Dark</item>
+    <item index="6">Brightburn</item>
+    <item index="7">Annabelle: Creation</item>
+    <item index="8">Ma</item>
+    <item index="9">Insidious: The Last Key</item>
+    <item index="10">The Prodigy</item>
+    <item index="11">It Chapter Two</item>
+    <item index="12">The Possession of Hannah Grace</item>
+    <item index="13">Halloween</item>
+    <item index="14">Us</item>
+    <item index="15">Happy Death Day 2U</item>
+    <item index="16">Slender Man</item>
+    <item index="17">Godzilla: King of the Monsters</item>
+    <item index="18">Escape Room</item>
+    <item index="19">In the Tall Grass</item>
+  </similar>
+  <studio>New Line Cinema</studio>
+  <summary>Determined to keep Annabelle from wreaking more havoc, demonologists Ed and Lorraine Warren bring the possessed doll to the locked artifacts room in their home, placing her “safely” behind sacred glass and enlisting a priest’s holy blessing. But an unholy night of horror awaits as Annabelle awakens the evil spirits in the room, who all set their sights on a new target—the Warrens' ten-year-old daughter, Judy, and her friends.</summary>
+  <tagline>Possess them all</tagline>
+  <tags/>
+  <themes/>
+  <title>Annabelle Comes Home</title>
+  <writers>
+    <item index="0">
+      <photo>http://image.tmdb.org/t/p/original/utWxbobxeJBRAaohiNIsIQBvuxe.jpg</photo>
+      <role/>
+      <name>Gary Dauberman</name>
+    </item>
+  </writers>
+  <year>2019</year>
+</Movie>

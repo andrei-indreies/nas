@@ -1,0 +1,143 @@
+2019-11-25 21:06:55,887 (7fdbc9d7d700) :  INFO (core:349) - Starting framework core - Version: 2.6.3, Build: e67a4e8 (Fri Nov 22 10:14:55 UTC 2019)
+2019-11-25 21:06:55,889 (7fdbc9d7d700) :  DEBUG (core:361) - Using the elevated policy
+2019-11-25 21:06:55,890 (7fdbc9d7d700) :  DEBUG (core:450) - Starting runtime component.
+2019-11-25 21:06:55,893 (7fdbc9d7d700) :  DEBUG (core:450) - Starting caching component.
+2019-11-25 21:06:55,894 (7fdbc9d7d700) :  DEBUG (core:450) - Starting data component.
+2019-11-25 21:06:55,895 (7fdbc9d7d700) :  DEBUG (core:450) - Starting networking component.
+2019-11-25 21:06:55,898 (7fdbc9d7d700) :  DEBUG (networking:261) - Loaded HTTP cookies
+2019-11-25 21:06:55,903 (7fdbc9d7d700) :  DEBUG (networking:428) - Setting the default network timeout to 20.0
+2019-11-25 21:06:55,904 (7fdbc9d7d700) :  DEBUG (core:450) - Starting localization component.
+2019-11-25 21:06:55,905 (7fdbc9d7d700) :  INFO (localization:409) - Setting the default locale to en-us
+2019-11-25 21:06:55,906 (7fdbc9d7d700) :  DEBUG (core:450) - Starting messaging component.
+2019-11-25 21:06:55,907 (7fdbc9d7d700) :  DEBUG (core:450) - Starting debugging component.
+2019-11-25 21:06:55,907 (7fdbc9d7d700) :  DEBUG (core:450) - Starting services component.
+2019-11-25 21:06:55,908 (7fdbc9d7d700) :  DEBUG (core:450) - Starting myplex component.
+2019-11-25 21:06:55,909 (7fdbb1ffb700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/system/messaging/clear_events/com.plexapp.agents.imdb'
+2019-11-25 21:06:55,909 (7fdbc9d7d700) :  DEBUG (core:450) - Starting notifications component.
+2019-11-25 21:06:56,046 (7fdbc9d7d700) :  DEBUG (accessor:68) - Creating a new model access point for provider com.plexapp.agents.imdb in namespace 'metadata'
+2019-11-25 21:06:56,055 (7fdbc9d7d700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/resourceHashes'
+2019-11-25 21:06:56,113 (7fdbb1ffb700) :  DEBUG (services:265) - Plug-in is not daemonized - loading services from system
+2019-11-25 21:06:56,114 (7fdbc9d7d700) :  DEBUG (runtime:1117) - Created a thread named 'load_all_services'
+2019-11-25 21:06:56,117 (7fdbc9d7d700) :  DEBUG (runtime:1117) - Created a thread named 'get_server_info'
+2019-11-25 21:06:56,118 (7fdbc9d7d700) :  DEBUG (core:150) - Finished starting framework core
+2019-11-25 21:06:56,119 (7fdbc9d7d700) :  DEBUG (core:560) - Loading plug-in code
+2019-11-25 21:06:56,120 (7fdbb1ffb700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0J1bmRsZVNlcnZpY2U6QWxsU2VydmljZXM_/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMApyMAo_'
+2019-11-25 21:06:56,119 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400'
+2019-11-25 21:06:56,168 (7fdbb0ff9700) :  DEBUG (core:538) - Machine identifier is bae732937b3ecd7c1c0113a7b548c11e9a04e6fa
+2019-11-25 21:06:56,170 (7fdbb1ffb700) :  DEBUG (services:362) - Loaded services
+2019-11-25 21:06:56,171 (7fdbb0ff9700) :  DEBUG (core:539) - Server version is 1.18.2.2058-e67a4e892
+2019-11-25 21:06:56,192 (7fdbb17fa700) :  DEBUG (services:438) - No shared code to load
+2019-11-25 21:06:56,663 (7fdbc9d7d700) :  DEBUG (core:566) - Finished loading plug-in code
+2019-11-25 21:06:56,810 (7fdbc9d7d700) :  DEBUG (agentkit:1128) - Creating new agent class called PlexMovieAgent
+2019-11-25 21:06:56,812 (7fdbc9d7d700) :  DEBUG (agentkit:933) - Updating agent information: [{'media_types': ['Movie'], 'accepts_from': ['com.plexapp.agents.localmedia'], 'fallback_agent': None, 'contributes_to': ['com.plexapp.agents.themoviedb'], 'languages': ['en', 'sv', 'fr', 'es', 'nl', 'de', 'it', 'da', 'ar', 'ca', 'zh', 'cs', 'et', 'fi', 'el', 'he', 'hi', 'hu', 'id', 'ja', 'ko', 'lv', 'no', 'fa', 'pl', 'pt', 'ro', 'ru', 'sk', 'th', 'tr', 'uk', 'vi'], 'persist_stored_files': True, 'version': 0, 'primary_provider': True, 'prefs': True, 'name': 'Plex Movie'}]
+2019-11-25 21:06:56,818 (7fdbc9d7d700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/:/plugins/com.plexapp.system/messaging/function/X0FnZW50U2VydmljZTpVcGRhdGVJbmZv/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQo3CmRpY3QKbGlzdApkaWN0Cmxpc3QKbGlzdApsaXN0Cmxpc3QKMgpzMjMKY29tLnBsZXhhcHAuYWdlbnRzLmltZGJzMTAKaWRlbnRpZmllcnIxCnMxMAphZ2VudF9pbmZvMQpyMgoxMApyMwpzMTEKbWVkaWFfdHlwZXNyNApzMTIKYWNjZXB0c19mcm9tbnMxNApmYWxsYmFja19hZ2VudHI1CnMxNApjb250cmlidXRlc190b3I2CnM5Cmxhbmd1YWdlc2IxczIwCnBlcnNpc3Rfc3RvcmVkX2ZpbGVzaTAKczcKdmVyc2lvbmIxczE2CnByaW1hcnlfcHJvdmlkZXJiMXM1CnByZWZzczEwClBsZXggTW92aWVzNApuYW1lMQpzNQpNb3ZpZTEKczI5CmNvbS5wbGV4YXBwLmFnZW50cy5sb2NhbG1lZGlhMQpzMjkKY29tLnBsZXhhcHAuYWdlbnRzLnRoZW1vdmllZGIzMwpzMgplbnMyCnN2czIKZnJzMgplc3MyCm5sczIKZGVzMgppdHMyCmRhczIKYXJzMgpjYXMyCnpoczIKY3NzMgpldHMyCmZpczIKZWxzMgpoZXMyCmhpczIKaHVzMgppZHMyCmphczIKa29zMgpsdnMyCm5vczIKZmFzMgpwbHMyCnB0czIKcm9zMgpydXMyCnNrczIKdGhzMgp0cnMyCnVrczIKdmlyMAo_'
+2019-11-25 21:06:56,832 (7fdbc9d7d700) :  INFO (core:611) - Started plug-in
+2019-11-25 21:06:56,833 (7fdbc9d7d700) :  DEBUG (socketinterface:160) - Starting socket server
+2019-11-25 21:06:56,834 (7fdbc9d7d700) :  DEBUG (runtime:1117) - Created a thread named 'start'
+2019-11-25 21:06:56,835 (7fdbc9d7d700) :  INFO (socketinterface:184) - Socket server started on port 37411
+2019-11-25 21:06:56,835 (7fdbc9d7d700) :  INFO (pipeinterface:25) - Entering run loop
+2019-11-25 21:06:56,836 (7fdbc9d7d700) :  DEBUG (runtime:717) - Handling request GET /:/prefixes
+2019-11-25 21:06:56,837 (7fdbc9d7d700) :  DEBUG (runtime:814) - Found route matching /:/prefixes
+2019-11-25 21:06:56,838 (7fdbc9d7d700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 148 bytes
+2019-11-25 21:06:56,840 (7fdbb0ff9700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.imdb/prefs
+2019-11-25 21:06:56,852 (7fdbb0ff9700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.imdb/prefs
+2019-11-25 21:06:56,854 (7fdbb0ff9700) :  DEBUG (preferences:258) - Loaded preferences from DefaultPrefs.json
+2019-11-25 21:06:56,863 (7fdbb0ff9700) :  DEBUG (preferences:178) - Loaded the user preferences for com.plexapp.agents.imdb
+2019-11-25 21:06:56,886 (7fdbb0ff9700) :  DEBUG (runtime:88) - Sending packed state data (104 bytes)
+2019-11-25 21:06:56,886 (7fdbb0ff9700) :  DEBUG (runtime:924) - Response: [200] MediaContainer, 2224 bytes
+2019-11-25 21:08:35,094 (7fdbb0ff9700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.imdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmVuczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M1Ck1vdmllczEwCm1lZGlhX3R5cGU4CnMxNgoxNWM5MDI4MDc0YTkxYzBjczE3Cm9wZW5TdWJ0aXRsZXNIYXNoczIwCkFubmFiZWxsZSBDb21lcyBIb21lczQKbmFtZXM0MAo5ZDQzMGUwYjliNzk3OTI0Yjc2MzgyYTM2YWI2ZjM5MjQ1NmYwNWViczgKcGxleEhhc2hzMTYzCiUyRmRhdGElMkZBbm5hYmVsbGUlMkVDb21lcyUyRUhvbWUlMkUyMDE5JTJFMTA4MHAlMkVCbHVSYXklMkVERDUlMkUxJTJFeDI2NC1wbGF5SEQlMkZBbm5hYmVsbGUlMkVDb21lcyUyRUhvbWUlMkUyMDE5JTJFMTA4MHAlMkVCbHVSYXklMkVERDUlMkUxJTJFeDI2NC1wbGF5SEQlMkVta3ZzOApmaWxlbmFtZXM2CmJsdXJheXM2CnNvdXJjZXM0CjIwMTlzNAp5ZWFyczIKLTFzOApkdXJhdGlvbnMxCjFzMgppZHIwCg__
+2019-11-25 21:08:35,097 (7fdbb0ff9700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.imdb/messaging/function/X0FnZW50S2l0OlNlYXJjaA__/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoyCmRpY3QKZGljdAo2CnMyCmVuczQKbGFuZ2IwczYKbWFudWFsYjFzNwpwcmltYXJ5aTAKczcKdmVyc2lvbnIxCnM2Cmt3YXJnc3M1Ck1vdmllczEwCm1lZGlhX3R5cGU4CnMxNgoxNWM5MDI4MDc0YTkxYzBjczE3Cm9wZW5TdWJ0aXRsZXNIYXNoczIwCkFubmFiZWxsZSBDb21lcyBIb21lczQKbmFtZXM0MAo5ZDQzMGUwYjliNzk3OTI0Yjc2MzgyYTM2YWI2ZjM5MjQ1NmYwNWViczgKcGxleEhhc2hzMTYzCiUyRmRhdGElMkZBbm5hYmVsbGUlMkVDb21lcyUyRUhvbWUlMkUyMDE5JTJFMTA4MHAlMkVCbHVSYXklMkVERDUlMkUxJTJFeDI2NC1wbGF5SEQlMkZBbm5hYmVsbGUlMkVDb21lcyUyRUhvbWUlMkUyMDE5JTJFMTA4MHAlMkVCbHVSYXklMkVERDUlMkUxJTJFeDI2NC1wbGF5SEQlMkVta3ZzOApmaWxlbmFtZXM2CmJsdXJheXM2CnNvdXJjZXM0CjIwMTlzNAp5ZWFyczIKLTFzOApkdXJhdGlvbnMxCjFzMgppZHIwCg__
+2019-11-25 21:08:35,098 (7fdbb0ff9700) :  INFO (agentkit:957) - Searching for matches for {'openSubtitlesHash': '15c9028074a91c0c', 'name': 'Annabelle Comes Home', 'plexHash': '9d430e0b9b797924b76382a36ab6f392456f05eb', 'filename': '%2Fdata%2FAnnabelle%2EComes%2EHome%2E2019%2E1080p%2EBluRay%2EDD5%2E1%2Ex264-playHD%2FAnnabelle%2EComes%2EHome%2E2019%2E1080p%2EBluRay%2EDD5%2E1%2Ex264-playHD%2Emkv', 'source': 'bluray', 'year': '2019', 'duration': '-1', 'id': '1'}
+2019-11-25 21:08:35,106 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2019-11-25 21:08:35,131 (7fdbb0ff9700) :  INFO (__init__:138) - checking hash search vector: https://meta.plex.tv/movie/hash/9d/9d430e0b9b797924b76382a36ab6f392456f05eb.xml
+2019-11-25 21:08:35,149 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/movie/hash/9d/9d430e0b9b797924b76382a36ab6f392456f05eb.xml'
+2019-11-25 21:08:35,783 (7fdbb0ff9700) :  ERROR (networking:196) - Error opening URL 'https://meta.plex.tv/movie/hash/9d/9d430e0b9b797924b76382a36ab6f392456f05eb.xml'
+2019-11-25 21:08:35,784 (7fdbb0ff9700) :  INFO (__init__:165) - freebase/proxy hash lookup failed: HTTP Error 404: Not Found
+2019-11-25 21:08:35,785 (7fdbb0ff9700) :  INFO (__init__:169) - Scoring {}
+2019-11-25 21:08:35,786 (7fdbb0ff9700) :  INFO (__init__:438) - ---- HASH RESULTS MAP ----
+2019-11-25 21:08:35,787 (7fdbb0ff9700) :  INFO (__init__:439) - {}
+2019-11-25 21:08:35,789 (7fdbb0ff9700) :  INFO (__init__:138) - checking title/year search vector: https://meta.plex.tv/movie/guid/61/61856dbb96f574644fd2d928e0dc23a1512855bb.xml
+2019-11-25 21:08:35,846 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/movie/guid/61/61856dbb96f574644fd2d928e0dc23a1512855bb.xml'
+2019-11-25 21:08:36,372 (7fdbb0ff9700) :  INFO (__init__:169) - Scoring {'tt8350360': [0, u'Annabelle Comes Home', u'2019', 99, 7562, 0]}
+2019-11-25 21:08:36,373 (7fdbb0ff9700) :  INFO (__init__:464) - ---- TITLE_YEAR RESULTS MAP ----
+2019-11-25 21:08:36,375 (7fdbb0ff9700) :  INFO (__init__:465) - {'tt8350360': [0, u'Annabelle Comes Home', u'2019', 99, 7562, 99]}
+2019-11-25 21:08:36,400 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fmovie%2Ftt8350360%3Fappend_to_response%3Dreleases%2Ccredits%26language%3D'
+2019-11-25 21:08:39,924 (7fdbb0ff9700) :  INFO (__init__:473) - Adding title_year match: Annabelle Comes Home (2019) score=99, key=tt8350360
+2019-11-25 21:08:39,926 (7fdbb0ff9700) :  INFO (__init__:481) - Found perfect match with title/year query.
+2019-11-25 21:08:39,929 (7fdbb0ff9700) :  DEBUG (runtime:88) - Sending packed state data (580 bytes)
+2019-11-25 21:08:39,930 (7fdbb0ff9700) :  DEBUG (runtime:924) - Response: [200] str, 652 bytes
+2019-11-25 21:08:40,053 (7fdbb0ff9700) :  DEBUG (runtime:717) - Handling request GET /:/plugins/com.plexapp.agents.imdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZW5zNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNQpNb3ZpZXMxMAptZWRpYV90eXBlczQzCmNvbS5wbGV4YXBwLmFnZW50cy5pbWRiOi8vdHQ4MzUwMzYwP2xhbmc9ZW5zNApndWlkczkKdHQ4MzUwMzYwczIKaWRyMAo_
+2019-11-25 21:08:40,062 (7fdbb0ff9700) :  DEBUG (runtime:814) - Found route matching /:/plugins/com.plexapp.agents.imdb/messaging/function/X0FnZW50S2l0OlVwZGF0ZU1ldGFkYXRh/Y2VyZWFsMQoxCmxpc3QKMApyMAo_/Y2VyZWFsMQoxCmRpY3QKMTAKczIKZW5zNApsYW5nYjFzNQpmb3JjZWIwczgKcGVyaW9kaWNzMQoxczQKZGJpZGkwCnM3CnZlcnNpb25uczEwCnBhcmVudEdVSURuczgKcGFyZW50SURzNQpNb3ZpZXMxMAptZWRpYV90eXBlczQzCmNvbS5wbGV4YXBwLmFnZW50cy5pbWRiOi8vdHQ4MzUwMzYwP2xhbmc9ZW5zNApndWlkczkKdHQ4MzUwMzYwczIKaWRyMAo_
+2019-11-25 21:08:40,065 (7fdbb0ff9700) :  DEBUG (model:32) - Loading model with GUID com.plexapp.agents.imdb://tt8350360?lang=en
+2019-11-25 21:08:40,071 (7fdbb0ff9700) :  ERROR (model:205) - Cannot read model from /config/Library/Application Support/Plex Media Server/Metadata/Movies/9/0f7a4dded802b929533a14bdcf0994f2c874919.bundle/Contents/com.plexapp.agents.imdb
+2019-11-25 21:08:40,076 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/library/metadata/1/tree'
+2019-11-25 21:08:40,118 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fconfiguration'
+2019-11-25 21:08:42,813 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fmovie%2Ftt8350360%3Fappend_to_response%3Dreleases%2Ccredits%26language%3Den'
+2019-11-25 21:08:45,502 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fmovie%2Ftt8350360%2Fimages'
+2019-11-25 21:08:48,190 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fmovie%2F521029%2Frecommendations'
+2019-11-25 21:08:51,559 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/4DHHymlttV0YskaxoWtuIDNDhPl.jpg'
+2019-11-25 21:08:52,281 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/4DHHymlttV0YskaxoWtuIDNDhPl.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:52,307 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/2pa6UTWCuRoAEzC06vAAxI7bBrT.jpg'
+2019-11-25 21:08:52,734 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/2pa6UTWCuRoAEzC06vAAxI7bBrT.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:52,762 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/jI2pxpDT3XBqcFvReAWp1gOf19i.jpg'
+2019-11-25 21:08:53,182 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/jI2pxpDT3XBqcFvReAWp1gOf19i.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:53,207 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/dGuLeKnJ8KcZ68sIB4zHlShq1We.jpg'
+2019-11-25 21:08:53,606 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/dGuLeKnJ8KcZ68sIB4zHlShq1We.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:53,632 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/yoB84nmIDTzfpUhF70okwXJ8EpE.jpg'
+2019-11-25 21:08:54,074 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/yoB84nmIDTzfpUhF70okwXJ8EpE.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:54,100 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/iaJakHS2qPkbRY4KHB7E3NmVb7w.jpg'
+2019-11-25 21:08:54,541 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/iaJakHS2qPkbRY4KHB7E3NmVb7w.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:54,599 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/mJAELkvaKd3mK1Q97aZ3jOGVetj.jpg'
+2019-11-25 21:08:55,089 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/mJAELkvaKd3mK1Q97aZ3jOGVetj.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:55,244 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/dBt0DoFfbhOI4ypUfRj1uTq623M.jpg'
+2019-11-25 21:08:55,536 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/dBt0DoFfbhOI4ypUfRj1uTq623M.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:55,570 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/jB98SrdXAYSbiprjIwc7WfVCuCV.jpg'
+2019-11-25 21:08:56,049 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/jB98SrdXAYSbiprjIwc7WfVCuCV.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:56,079 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w300/AhhOKG6insXApyoriOaNAJ5PoAk.jpg'
+2019-11-25 21:08:56,437 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w300/AhhOKG6insXApyoriOaNAJ5PoAk.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:56,549 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/gNJiobPrfboTU5WkgOui9ULAnrC.jpg'
+2019-11-25 21:08:56,994 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/gNJiobPrfboTU5WkgOui9ULAnrC.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:57,025 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/D1L2D7oeZwFugxmM94vFB4V88H.jpg'
+2019-11-25 21:08:57,380 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/D1L2D7oeZwFugxmM94vFB4V88H.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:57,401 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/kb9zzPORh4lZ1gBvcV0MxsU3FSc.jpg'
+2019-11-25 21:08:57,795 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/kb9zzPORh4lZ1gBvcV0MxsU3FSc.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:57,813 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/wtrHmaRCHj4FOzpQ0TqdWSUsJ19.jpg'
+2019-11-25 21:08:58,154 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/wtrHmaRCHj4FOzpQ0TqdWSUsJ19.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:58,173 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/7VrHVOaEiggu3pRWT4X5812twQF.jpg'
+2019-11-25 21:08:58,522 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/7VrHVOaEiggu3pRWT4X5812twQF.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:58,543 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/3Ndk7Wjw8H4pOL2TxxdnRmY3At9.jpg'
+2019-11-25 21:08:58,907 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/3Ndk7Wjw8H4pOL2TxxdnRmY3At9.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:58,934 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/c6jiJaHHIiJOAJ9ct2Ogy90KVyx.jpg'
+2019-11-25 21:08:59,324 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/c6jiJaHHIiJOAJ9ct2Ogy90KVyx.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:59,343 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg'
+2019-11-25 21:08:59,733 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/qWsHMrbg9DsBY3bCMk9jyYCRVRs.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:08:59,751 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/4A7RT9qVF76kQ09mhPsqJdRNeHM.jpg'
+2019-11-25 21:09:00,084 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/4A7RT9qVF76kQ09mhPsqJdRNeHM.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:00,114 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/6NvcsKQmWvZz8fDvuboZkccowZA.jpg'
+2019-11-25 21:09:00,430 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/6NvcsKQmWvZz8fDvuboZkccowZA.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:00,454 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/tpJwRPPnfAaUt3iYu4HVlOp1LUl.jpg'
+2019-11-25 21:09:00,742 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/tpJwRPPnfAaUt3iYu4HVlOp1LUl.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:00,758 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/pJDt7mBK3KZSVuN03ACpLhOd74j.jpg'
+2019-11-25 21:09:01,046 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/pJDt7mBK3KZSVuN03ACpLhOd74j.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:01,063 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/8MKIOGSEkuyWUHpTSnxOqcXzrYQ.jpg'
+2019-11-25 21:09:01,362 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/8MKIOGSEkuyWUHpTSnxOqcXzrYQ.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:01,394 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/aD25FFtyGsyHgoc1Ff70o518WvE.jpg'
+2019-11-25 21:09:01,687 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/aD25FFtyGsyHgoc1Ff70o518WvE.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:01,725 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/jsbt03UnPPt14AYRMcGaoqtwNxQ.jpg'
+2019-11-25 21:09:02,074 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/jsbt03UnPPt14AYRMcGaoqtwNxQ.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:02,106 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://image.tmdb.org/t/p/w154/qFjtLOeVl4jpzPUhp4cl4ieANHY.jpg'
+2019-11-25 21:09:02,406 (7fdbb0ff9700) :  DEBUG (networking:175) - Not caching 'http://image.tmdb.org/t/p/w154/qFjtLOeVl4jpzPUhp4cl4ieANHY.jpg' (content type 'image/jpeg' not cacheable in Agent plug-ins)
+2019-11-25 21:09:02,421 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'https://meta.plex.tv/m/8350360?lang=en&ratings=1&reviews=1&extras=1'
+2019-11-25 21:09:03,182 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'http://127.0.0.1:32400/services/tmdb?uri=%2Fmovie%2Ftt8350360%3Fappend_to_response%3Dreleases%2Ccredits%26language%3D'
+2019-11-25 21:09:06,728 (7fdbb0ff9700) :  INFO (__init__:800) - Added 1 of 15 extras.
+2019-11-25 21:09:06,785 (7fdbb0ff9700) :  DEBUG (networking:143) - Requesting 'https://chapterdb.plex.tv/chapters/search?title=Annabelle%20Comes%20Home'
+2019-11-25 21:09:07,631 (7fdbb0ff9700) :  DEBUG (chapterdb:197) - Added 0 chapters.
+2019-11-25 21:09:07,967 (7fdbb0ff9700) :  DEBUG (services:616) - Found a service matching 'iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(541099)?lang=en&bitrates=80,212,450,750,1500,2500,3300,4200,5000,8000&duration=144&adaptive=1&dts=0' - IVA (com.plexapp.agents.imdb)
+2019-11-25 21:09:07,969 (7fdbb0ff9700) :  DEBUG (services:41) - Loading service code for IVA (URLServiceRecord)
+2019-11-25 21:09:07,996 (7fdbb0ff9700) :  INFO (services:707) - No normalization function found for URL 'iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(541099)?lang=en&bitrates=80,212,450,750,1500,2500,3300,4200,5000,8000&duration=144&adaptive=1&dts=0'
+2019-11-25 21:09:07,998 (7fdbb0ff9700) :  DEBUG (services:616) - Found a service matching 'iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(541099)?lang=en&bitrates=80,212,450,750,1500,2500,3300,4200,5000,8000&duration=144&adaptive=1&dts=0' - IVA (com.plexapp.agents.imdb)
+2019-11-25 21:09:08,000 (7fdbb0ff9700) :  INFO (services:707) - No normalization function found for URL 'iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(541099)?lang=en&bitrates=80,212,450,750,1500,2500,3300,4200,5000,8000&duration=144&adaptive=1&dts=0'
+2019-11-25 21:09:08,002 (7fdbb0ff9700) :  DEBUG (services:616) - Found a service matching 'iva://api.internetvideoarchive.com/2.0/DataService/VideoAssets(541099)?lang=en&bitrates=80,212,450,750,1500,2500,3300,4200,5000,8000&duration=144&adaptive=1&dts=0' - IVA (com.plexapp.agents.imdb)
+2019-11-25 21:09:08,016 (7fdbb0ff9700) :  DEBUG (model:229) - Serializing to /config/Library/Application Support/Plex Media Server/Metadata/Movies/9/0f7a4dded802b929533a14bdcf0994f2c874919.bundle/Contents/com.plexapp.agents.imdb/Info.xml
+2019-11-25 21:09:08,023 (7fdbb0ff9700) :  DEBUG (runtime:88) - Sending packed state data (1056 bytes)
+2019-11-25 21:09:08,024 (7fdbb0ff9700) :  DEBUG (runtime:924) - Response: [200] str, 16 bytes
