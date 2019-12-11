@@ -4,6 +4,7 @@ services:
     image: linuxserver/transmission
     container_name: transmission
     mem_limit: 300m
+    env_file: .env
     depends_on:
       - samba
     restart: unless-stopped
@@ -21,14 +22,15 @@ services:
       - 51413:51413/udp
     volumes:
       - "./common/data/configs/transmission:/config"
-      - "./common/data/movies:/downloads/complete"
+      - ${DATA_LOCATION}/movies:/downloads/complete
       - "./common/data/watch:/watch"
-      - "./transmission/downloads:/downloads/incomplete"
+      - "./transmission/temp:/downloads/incomplete"
 
   samba:
     image: joebiellik/samba-server
     mem_limit: 2048m
     restart: unless-stopped
+    env_file: .env
     environment:
       - USERNAME=${USERNAME}
       - PASSWORD=${PASSWORD}
@@ -42,7 +44,7 @@ services:
       - "./common/data/configs/samba/smb.conf:/etc/samba/smb.conf"
       # Shares
       - "./common/data/configs:/mnt/configs"
-      - "./common/data/movies:/mnt/movies:ro"
+      - ${DATA_LOCATION}/movies:/mnt/movies:ro
       - "./common/data/watch:/mnt/watch:rw"
 
   plex:
@@ -51,6 +53,7 @@ services:
     restart: unless-stopped
     mem_limit: 6144m
     hostname: plex.local
+    env_file: .env
     environment:
       - TZ=${TIMEZONE}
       - PLEX_CLAIM=${PLEXCLAIM}
@@ -68,4 +71,4 @@ services:
     volumes:
       - "./common/data/configs/plex:/config"
       - "./plex/temp:/transcode:ro"
-      - "./common/data/movies:/data:rw"
+      - ${DATA_LOCATION}/movies:/data:rw
