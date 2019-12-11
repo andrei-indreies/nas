@@ -2,13 +2,17 @@ version: '2.4'
 
 volumes:
   emby-data:
-  networks:
+networks:
+  internal:
+    driver: default
 
 services:
   torrent-server:
     image: linuxserver/transmission
     container_name: transmission
     mem_limit: 300m
+    networks:
+      - internal
     env_file: .env
     depends_on:
       - samba
@@ -34,6 +38,8 @@ services:
   samba:
     image: joebiellik/samba-server
     mem_limit: 2048m
+    networks:
+      - internal
     restart: unless-stopped
     env_file: .env
     environment:
@@ -57,6 +63,8 @@ services:
     image: plexinc/pms-docker
     restart: unless-stopped
     mem_limit: 6144m
+    networks:
+      - internal
     hostname: plex.local
     env_file: .env
     environment:
@@ -81,6 +89,8 @@ services:
   emby:
     init: true
     mem_limit: 6144m
+    networks:
+      - internal
     restart: unless-stopped
     build:
       context: .
