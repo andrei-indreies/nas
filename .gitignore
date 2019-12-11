@@ -2,8 +2,10 @@
 /common/data/movies/
 /common/data/watch/
 /common/data/configs/transmission/resume/
+/common/data/configs/plex/
 /common/data/configs/transmission/torrents/
 /common/data/configs/transmission/blocklists/
+/common/data/configs/transmission/dht.dat
 /transmission/
 /plex/
 *.mkv
