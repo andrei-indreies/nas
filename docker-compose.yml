@@ -1,4 +1,9 @@
 version: '2.4'
+
+volumes:
+  emby-data:
+  networks:
+
 services:
   torrent-server:
     image: linuxserver/transmission
@@ -72,3 +77,19 @@ services:
       - "./common/data/configs/plex:/config"
       - "./plex/temp:/transcode:ro"
       - ${DATA_LOCATION}/movies:/data:rw
+
+  emby:
+    init: true
+    mem_limit: 6144m
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: ./emby/Dockerfile
+    ports:
+      - 8096:8096
+      - 8920:8920
+    volumes:
+      - emby-data:/var/lib/emby
+      - ${DATA_LOCATION}/movies:/media/Movies:ro
+      - ${DATA_LOCATION}/music:/media/Music:ro
+      - ${DATA_LOCATION}/photos:/media/Photos:ro
